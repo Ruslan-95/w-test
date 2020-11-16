@@ -1,0 +1,24 @@
+{
+  "author": "Ruslan Muradov",
+  "name": "w-test",
+  "version": "1.0.0",
+  "description": "Test automation with codeceptjs.",
+  "main": "tests/test.js",
+  "scripts": {
+    "test": "codeceptjs run-workers 5"
+  },
+  "keywords": [
+    "nodejs",
+    "webdriverio",
+    "codeceptjs"
+  ],
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "assert": "^2.0.0",
+    "axios": "^0.18.1",
+    "codeceptjs": "^3.0.2",
+    "config": "^3.3.2",
+    "qs": "^6.9.4",
+    "webdriverio": "^6.7.3"
+  }
+}
