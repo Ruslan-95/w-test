@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1605442870092' stop='1605442878175'>
+    <name>Test SQL table.:</name>
+    <title>Test SQL table.:</title>
+    <test-cases>
+        <test-case start='1605442870094' status='failed' stop='1605442878167'>
+            <name>Rows = 'London'</name>
+            <title>Rows = 'London'</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't connect to WebDriver.
+                Error: Failed to create session.
+                Unable to connect to "127.0.0.1:4444", make sure browser driver is running on that address.
+                If you use services like chromedriver see initialiseServices logs above or in wdio.log file.
+                
+                Please make sure Selenium Server (ChromeDriver or PhantomJS) is running and accessible</message>
+                <stack-trace>Error: Failed to create session.
+                Unable to connect to "127.0.0.1:4444", make sure browser driver is running on that address.
+                If you use services like chromedriver see initialiseServices logs above or in wdio.log file.
+                    at startWebDriverSession (C:\Selenium\w-test\node_modules\webdriver\build\utils.js:45:11)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
